@@ -30,7 +30,8 @@ module.exports = {
 	entry: './src/index.js',
 
 	output: {
-		filename: '[name].[chunkhash].js',
+		// filename: '[name].[chunkhash].js',
+		filename: 'lazyload.js',
 		path: path.resolve(__dirname, 'dist')
 	},
 
