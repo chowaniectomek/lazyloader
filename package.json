@@ -20,5 +20,8 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "intersection-observer": "^0.7.0"
   }
 }
